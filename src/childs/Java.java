@@ -1,27 +1,23 @@
 package childs;
 
-public class Developer2 extends Java {
+public class Java {
 
-    private Range range;
+        private static Range range;
         private String name;
 
 
-        public Developer2(Range senior) {
+        public Java() {
 
         }
-        public Developer2(String name, Range range) {
+        public Java(String name, Range range) {
             this.name = name;
             this.range = range;
 
         }
 
-    public Developer2() {
-
-    }
-
-    public Range getRange() {
-        return range;
-    }
+        public Range getRange() {
+            return range;
+        }
 
         public void setRange(Range range) {
             this.range = range;
@@ -36,10 +32,7 @@ public class Developer2 extends Java {
         }
 
         public void printDeveloperGrade(){
-            System.out.println("I am senior developer");
-            }
-            //System.out.println("I am senior developer2");
+            System.out.println("I am developer");
         }
 
-
-
+}

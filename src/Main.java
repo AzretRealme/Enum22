@@ -1,72 +1,55 @@
 import childs.*;
 
+import static childs.Range.*;
+
 
 public class Main {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            Developer developer = new Developer("Developer", Range.JUNIOR);
-            Developer2 developer2 = new Developer2("Developer2", Range.SENIOR);
-            Developer3 developer3 = new Developer3("Developer3", Range.MIDDLE);
-            Developer4 developer4 = new Developer4("Developer", Range.TEAMLEAD);
+        Java[] develoop = new Java[]{new Developer("Developer", JUNIOR),
+                new Developer2("Developer2", SENIOR),
+                new Developer3("Developer3", MIDDLE),
+                new Developer4("Developer4", TEAMLEAD)};
 
-           /* developer.printDeveloperGrade();
-            developer2.printDeveloperGrade();
-            developer3.printDeveloperGrade();
-            developer4.printDeveloperGrade();
-            */
-            switch (developer.getRange()) {
-                case JUNIOR:
-                    System.out.println("I am junior developer");
-                case SENIOR:
-                    break;
-                case MIDDLE:
-                    break;
-                case TEAMLEAD:
-                    break;
-                default:
-                    break;
-            }
-
-            switch (developer2.getRange()) {
-                case JUNIOR:
-                    break;
-                case SENIOR:
-                    System.out.println("I am senior developer2");
-                case MIDDLE:
-                    break;
-                case TEAMLEAD:
-                    break;
-                default:
-                    break;
-
-            }
-            switch (developer3.getRange()){
-                case JUNIOR:
-                    break;
-                case SENIOR:
-                    break;
-                case MIDDLE:
-                    System.out.println("I am middle developer3");
-                case TEAMLEAD:
-                    break;
-                default:
-                    break;
-            }
-            switch (developer4.getRange()){
-                case JUNIOR:
-                    break;
-                case SENIOR:
-                    break;
-                case MIDDLE:
-                    break;
-                case TEAMLEAD:
-                    System.out.println("I am teamlead developer4");
-                default:
-                    break;
-            }
+        for (Java developers : develoop) {
+            developers.printDeveloperGrade();
         }
 
+        Java develops = new Java();
+        switch (develops.getRange()) {
+            case JUNIOR:
+                System.out.println("I am junior developer2");
+                break;
+            case SENIOR:
+                System.out.println("I am senior developer2");
+            case MIDDLE:
+                System.out.println("I am middle developer2");
+                break;
+            case TEAMLEAD:
+                System.out.println("I am teamlead developer2");
+                break;
+            default:
+                break;
+
         }
+    }
+}
+
+            /*if (JUNIOR.equals(develop)) {
+                System.out.println("I am junior developer");
+
+                System.out.println("I am junior developer");
+            } else if (SENIOR.equals(develop)) {
+                System.out.println("I am junior developer");
+            } else if (MIDDLE.equals(develop)) {
+                System.out.println("I am junior developer");
+            } else if (TEAMLEAD.equals(develop)) {
+                System.out.println("I am junior developer");
+            }*/
+
+
+
+
 
 

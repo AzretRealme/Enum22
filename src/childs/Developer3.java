@@ -1,8 +1,8 @@
 package childs;
 
-public class Developer3 {
+public class Developer3 extends Java{
 
-        private static Range range;
+        private Range range;
         private String name;
 
 
@@ -15,7 +15,7 @@ public class Developer3 {
 
         }
 
-        public static Range getRange() {
+        public Range getRange() {
             return range;
         }
 
@@ -32,7 +32,7 @@ public class Developer3 {
         }
 
         public void printDeveloperGrade(){
-            System.out.println("I am junior developer");
+            System.out.println("I am middle developer");
             //System.out.println("I am middle developer3");
         }
 

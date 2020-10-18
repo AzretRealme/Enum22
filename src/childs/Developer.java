@@ -1,10 +1,10 @@
 package childs;
 
-import static childs.Range.*;
+//import static childs.Range.*;
 
-public class Developer {
+public class Developer extends Java{
 
-    private static Range range;
+    private Range range;
     private String name;
 
 
@@ -17,7 +17,7 @@ public class Developer {
 
     }
 
-    public static Range getRange() {
+    public Range getRange() {
         return range;
     }
 
