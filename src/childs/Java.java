@@ -2,7 +2,7 @@ package childs;
 
 public class Java {
 
-        private static Range range;
+        private Range range;
         private String name;
 
 
@@ -32,6 +32,9 @@ public class Java {
         }
 
         public void printDeveloperGrade(){
+            System.out.println("I am developer");
+        }
+        public void printPhrase(){
             System.out.println("I am developer");
         }
 

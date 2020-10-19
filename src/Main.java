@@ -6,18 +6,29 @@ import static childs.Range.*;
 public class Main {
 
     public static void main(String[] args) {
-
-        Java[] develoop = new Java[]{new Developer("Developer", JUNIOR),
+        Java[] developers = new Java[]{new Developer("Developer", JUNIOR),
                 new Developer2("Developer2", SENIOR),
                 new Developer3("Developer3", MIDDLE),
                 new Developer4("Developer4", TEAMLEAD)};
 
-        for (Java developers : develoop) {
-            developers.printDeveloperGrade();
+        for (Java java : developers) {
+            java.printPhrase();
         }
+    }
 
-        Java develops = new Java();
-        switch (develops.getRange()) {
+
+/*        Java[] developers = new Java[]{new Developer("Developer", JUNIOR),
+                new Developer2("Developer2", SENIOR),
+                new Developer3("Developer3", MIDDLE),
+                new Developer4("Developer4", TEAMLEAD)};
+
+        for (Java java : developers) {
+            java.printDeveloperGrade();
+        }
+    }*/
+   /* public static void printDeveloperGrade(){
+        Java developers = new Java();
+        switch (developers.getRange()) {
             case JUNIOR:
                 System.out.println("I am junior developer2");
                 break;
@@ -33,7 +44,9 @@ public class Main {
                 break;
 
         }
-    }
+    }*/
+    //public static void printPhrase(){
+
 }
 
             /*if (JUNIOR.equals(develop)) {

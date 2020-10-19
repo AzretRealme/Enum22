@@ -36,7 +36,9 @@ public class Developer extends Java{
     public void printDeveloperGrade(){
         System.out.println("I am junior developer");
         }
-
+    public void printPhrase(){
+        System.out.println("I am junior developer");
+    }
 
     }
 

@@ -35,7 +35,9 @@ public class Developer3 extends Java{
             System.out.println("I am middle developer");
             //System.out.println("I am middle developer3");
         }
-
+        public void printPhrase(){
+            System.out.println("I am middle developer");
+    }
     }
 
 

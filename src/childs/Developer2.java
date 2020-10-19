@@ -38,6 +38,9 @@ public class Developer2 extends Java {
         public void printDeveloperGrade(){
             System.out.println("I am senior developer");
             }
+    public void printPhrase(){
+        System.out.println("I am senior developer");
+    }
             //System.out.println("I am senior developer2");
         }
 
