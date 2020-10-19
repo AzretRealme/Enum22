@@ -2,36 +2,36 @@ package childs;
 
 public class Developer3 extends Java{
 
-        private Range range;
-        private String name;
+    private Range range;
+    private String phrase;
 
 
-        public Developer3(Range middle) {
+    public Developer3() {
 
-        }
-        public Developer3(String name, Range range) {
-            this.name = name;
-            this.range = range;
+    }
+    public Developer3(String phrase, Range range) {
+        this.phrase = phrase;
+        this.range = range;
 
-        }
+    }
 
-        public Range getRange() {
-            return range;
-        }
+    public Range getRange() {
+        return range;
+    }
 
-        public void setRange(Range range) {
-            this.range = range;
-        }
+    public void setRange(Range range) {
+        this.range = range;
+    }
 
-        public String getName() {
-            return name;
-        }
+    public String getString() {
+        return phrase;
+    }
 
-        public void setName(String name) {
-            this.name = name;
-        }
+    public void setString(String phrase) {
+        this.phrase = phrase;
+    }
 
-        public void printDeveloperGrade(){
+    public void printDeveloperGrade(){
             System.out.println("I am middle developer");
             //System.out.println("I am middle developer3");
         }

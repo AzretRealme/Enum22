@@ -3,19 +3,15 @@ package childs;
 public class Developer2 extends Java {
 
     private Range range;
-        private String name;
+    private String phrase;
 
-
-        public Developer2(Range senior) {
-
-        }
-        public Developer2(String name, Range range) {
-            this.name = name;
-            this.range = range;
-
-        }
 
     public Developer2() {
+
+    }
+    public Developer2(String phrase, Range range) {
+        this.phrase = phrase;
+        this.range = range;
 
     }
 
@@ -23,19 +19,19 @@ public class Developer2 extends Java {
         return range;
     }
 
-        public void setRange(Range range) {
-            this.range = range;
-        }
+    public void setRange(Range range) {
+        this.range = range;
+    }
 
-        public String getName() {
-            return name;
-        }
+    public String getString() {
+        return phrase;
+    }
 
-        public void setName(String name) {
-            this.name = name;
-        }
+    public void setString(String phrase) {
+        this.phrase = phrase;
+    }
 
-        public void printDeveloperGrade(){
+    public void printDeveloperGrade(){
             System.out.println("I am senior developer");
             }
     public void printPhrase(){

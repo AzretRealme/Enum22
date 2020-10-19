@@ -3,14 +3,14 @@ package childs;
 public class Java {
 
         private Range range;
-        private String name;
+        private String phrase;
 
 
         public Java() {
 
         }
-        public Java(String name, Range range) {
-            this.name = name;
+        public Java(String phrase, Range range) {
+            this.phrase = phrase;
             this.range = range;
 
         }
@@ -23,12 +23,12 @@ public class Java {
             this.range = range;
         }
 
-        public String getName() {
-            return name;
+        public String getString() {
+            return phrase;
         }
 
-        public void setName(String name) {
-            this.name = name;
+        public void setString(String phrase) {
+            this.phrase = phrase;
         }
 
         public void printDeveloperGrade(){

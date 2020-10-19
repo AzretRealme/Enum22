@@ -2,36 +2,37 @@ package childs;
 
 public class Developer4 extends Java{
 
-        private static Range range;
-        private String name;
+    private Range range;
+    private String phrase;
 
 
-        public Developer4(Range teamlead) {
+    public Developer4() {
 
-        }
-        public Developer4(String name, Range range) {
-            this.name = name;
-            this.range = range;
+    }
+    public Developer4(String phrase, Range range) {
+        this.phrase = phrase;
+        this.range = range;
 
-        }
+    }
 
-        public Range getRange() {
-            return range;
-        }
+    public Range getRange() {
+        return range;
+    }
 
-        public void setRange(Range range) {
-            this.range = range;
-        }
+    public void setRange(Range range) {
+        this.range = range;
+    }
 
-        public String getName() {
-            return name;
-        }
+    public String getString() {
+        return phrase;
+    }
 
-        public void setName(String name) {
-            this.name = name;
-        }
+    public void setString(String phrase) {
+        this.phrase = phrase;
+    }
 
-        public void printDeveloperGrade(){
+
+    public void printDeveloperGrade(){
             System.out.println("I am teamlead developer");
             //System.out.println("I am teamlead developer4");
         }

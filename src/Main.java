@@ -6,10 +6,10 @@ import static childs.Range.*;
 public class Main {
 
     public static void main(String[] args) {
-        Java[] developers = new Java[]{new Developer("Developer", JUNIOR),
-                new Developer2("Developer2", SENIOR),
-                new Developer3("Developer3", MIDDLE),
-                new Developer4("Developer4", TEAMLEAD)};
+        Java[] developers = new Java[]{new Developer("I am Junior Developer", JUNIOR),
+                new Developer2("I am Senior Developer", SENIOR),
+                new Developer3("I am Middle Developer", MIDDLE),
+                new Developer4("I am Teamlead Developer", TEAMLEAD)};
 
         for (Java java : developers) {
             java.printPhrase();
