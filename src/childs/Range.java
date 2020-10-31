@@ -1,11 +1,23 @@
 package childs;
 
 public enum Range {
-    JUNIOR,
-    MIDDLE,
+    JUNIOR("I am Junior Developer"),
+    MIDDLE("I am Senior Developer"),
 
-    SENIOR,
+    SENIOR("I am Middle Developer"),
 
-    TEAMLEAD
+    TEAMLEAD("I am Teamlead Developer");
 
+    String phrase;
+
+    Range() {
+
+    }
+
+    Range(String phrase) {
+        this.phrase = phrase;
+    }
+    public void printPhrase(){
+        System.out.println(this.phrase);
+    }
 }
